@@ -161,6 +161,11 @@ Tras haber instalado todas las herramientas creamos una carpeta para el proyecto
 ![img 32](./images/captura30-conexion-ssh-linux6.png)
 ![img 33](./images/captura30-conexion-ssh-linux5.png)
 
+Una vez iniciado el proyecto modificamos el html y el css de este.
+
+![img 34](./images/captura35-Modificacion-index.png)
+![img 35](./images/captura36-Modificacion-css.png)
+
 ### Windows: 
 
 
