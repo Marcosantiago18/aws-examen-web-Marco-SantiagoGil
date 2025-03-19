@@ -194,3 +194,29 @@ Y una vez intalado todo creamos y iniciamos el proyecto
     npm install
     npm run dev
 ```
+
+## Pull request
+Una vez nos haya invitado nuesto compañero a su repositorio, lo copiamos
+
+![img 36](./images/captura37-PR.png)
+
+Y lo clonamos en git bash, cremos una nueva rama para nuestras modificaciones y lo abrimos en visual studio
+
+![img 37](./images/captura38-PR_2.png)
+
+Una vez abierto en visual studio hacemos las modificaciones 
+
+![img 38](./images/captura39-PR_3.png)
+![img 39](./images/captura40-PR_4.png)
+
+Una vez modificado el proyecto, añadimos el cambio y le hacemos un commit para subirlo a github
+
+![img 40](./images/captura41-PR_5.png)
+
+Una vez subido en github hacemos el pull request 
+
+![img 41](./images/captura42-PR_6.png)
+
+![img 42](./images/captura43-PR_7.png)
+
+![img 43](./images/captura44-PR_8.png)
