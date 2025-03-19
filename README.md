@@ -6,7 +6,7 @@ Para crear una nueva VPC nos diregimos a la etiqueta VPC en AWS y le damos a "cr
 
 Una vez le demos a crear, nos abrira una pestaña para configurar la VPC poniendole el nombre y la dirección ip
 
-![img 1](./images/captura1.jpg)
+![imagen 1](./images/captura1.jpg)
 
 Una vez configurado la VPC le damos a "crear VPC"
 
@@ -14,24 +14,24 @@ El siguiente paso es crear las dos subredes, para ello nos vamos a la pestala "S
 
 Empezamos seleccionando la vpc que creamos antes y configurando la primera subred, la subnet-linux, le ponemos el nombre , la zona de disponibilidad y la ip(10.0.1.0/24).
 
-![img 2](./images/captura2-subredes.jpg)
+![imagen 2](./images/captura2-subredes.jpg)
 
 Continuamos configurando la segunda subred , la subnet-windows.
 
-![img 3](./images/captura3-subredes.jpg)
+![imagen 3](./images/captura3-subredes.jpg)
 
 Una vez creadas las subredes debemos crear una puerta de enlace de internet, para ello debemos ir a la pestaña "Puertas de enlace de internet" y darle a "crear gateway de internet".
 Le ponemos el nombre y le damos a crear
 
-![img 4](./images/captura4-Gateway.jpg)
+![imagen 4](./images/captura4-Gateway.jpg)
 
 A continuación debemos asociarla a la vpc anteriormente creada, para ello al crear el gateway nos aparece un mensaje para asociarla.
 
-![img 5](./images/captura5-AsociarVPC.jpg)
+![imagen 5](./images/captura5-AsociarVPC.jpg)
 
 Clicamos en el mensaje y seleccionamos la vpc ya creada
 
-![img 6](./images/captura6-AsociarVPC.jpg)
+![imagen 6](./images/captura6-AsociarVPC.jpg)
 
 Ahora tenemos que crear una tabla de enritamiento para el gateway.
 Para crearla nos dirigimos a la pestaña "Tablas de enrutamiento" y le damos a crear tabla de enrutamiento.
